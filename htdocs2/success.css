@@ -1,0 +1,171 @@
+.login-header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the content horizontally */
+    gap: 10px; /* Adds spacing between the logo and text */
+}
+.login-logo {
+    width: 70px; /* Adjust the size as needed */
+    height: 70px;
+}
+
+/* Form heading FUSASIS*/
+h1 {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/* Responsive font size for "You may now proceed to LOG IN" */
+/* Message styling FUSASIS*/
+h3 {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* Center container FUSASIS*/
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Make sure content stacks vertically */
+}
+
+/* Media query for smaller screens */
+/* Responsive font size FUSASIS*/
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+}
+      /* Responsive for smaller screens */
+      @media (max-width: 768px) {
+        footer {
+          flex-direction: column;
+        }
+        .footer-links {
+          margin-top: 10px;
+          text-align: center; /* Center the links */
+        }
+        .footer-links a {
+          display: inline-block; /* Keep the links side by side */
+          margin: 0 5px;
+        }
+      }
+
+      /* Form styles FUSASIS*/
+    form {
+    width: 90%; /* 90% of the viewport width */
+    max-width: 500px; /* Max width of 500px on larger screens */
+    padding: 50px;
+    border: 2px solid #ccc;
+    border-radius: 24px;
+    background-color: rgba(249, 249, 249, 0.8); /* Slightly transparent background */
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    }
+
+        /* Background gradient */
+    body::before {
+        content: '';
+        position: fixed; /* Change to fixed to stay in place */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('image1.jpg') no-repeat center center;
+        background-size: cover;
+        opacity: 1;
+        animation: fadeInOut 24s infinite;
+    }
+
+    @keyframes fadeInOut {
+0% {
+    opacity: 1;
+    background-image: url('imaHEN/background//naserverside.webp');
+
+
+
+    /*background: linear-gradient(90deg, #8c52ff, #00bf63); /* Adjust colors as needed */
+
+    /*{
+        opacity: 1;
+        background: 
+            linear-gradient(to right, rgba(255, 126, 95, 0.5), rgba(254, 180, 123, 0.5)), /* Gradient overlay */
+            /* url('https://raw.githubusercontent.com/jesusdiazjess/hgbc.edu.ph/main/imageside/serverside1.jpg'); /* Image */
+        /* background-size: cover; /* Ensures the image covers the whole area */
+    /*}*/
+    
+}
+
+25% {
+    opacity: 1;
+    background-image: url('imaHEN/background//naserverside.webp');
+}
+50% {
+    opacity: 1;
+    background-image: url('imaHEN/background//naserverside.webp');
+}
+75% {
+    opacity: 1;
+    background-image: url('imaHEN/background//naserverside.webp');
+}
+100% {
+    opacity: 1;
+    background-image: url('imaHEN/background//naserverside.webp');
+    /*background-image: url('https://raw.githubusercontent.com/jesusdiazjess/hgbc.edu.ph/main/imageside/serverside4.3.jpg');*/
+}
+}
+
+/* Footer styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between; /* Align items with space between */
+    padding: 10px 20px; /* Add padding to space out the content */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+/*FUSASIS */
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+    /* Reset some basic margins and paddings */
+    body, html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: 'Ubuntu', sans-serif;
+        overflow: hidden; /* Ensure no scrolling */
+    }
+
+    /* Login header styling FUSASIS*/
+    .login-header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the content horizontally */
+    gap: 10px; /* Adds spacing between the logo and text */
+    text-align: center; /* Center the text */
+    }
+
+    /* Logo styling FUSASIS*/
+    .login-logo {
+    width: 70px; /* Adjust the size as needed */
+    height: 70px;
+    }

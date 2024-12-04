@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Created Successfully :: HGBaquiran College</title>
+
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">-->
+
+    <link rel="icon" href="imaHEN/logo/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="imaHEN/logo/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!--<link rel="stylesheet" href="login.css">-->
+    <link rel="stylesheet" href="success.css">
+</head>
+
+<body>
+  <div class="center">
+    <form action="prologin.php" method="post" id="redirectForm" style="text-align: center;">
+      <div class="login-header">
+          <img src="imaHEN/logo/logo.webp" alt="Logo" class="login-logo">
+          <h1>Account Created Successfully!</h1>
+      </div>
+  
+      <h3>Your account has been successfully created. <br>You may now proceed to LOG IN</h3>
+      
+      <div id="countdown" style="margin-top: 20px; font-weight: bold;"></div>
+      
+      <!-- Loading spinner -->
+      <div id="spinner" style="display: none; margin-top: 20px;">
+          <div class="loader"></div>
+      </div>
+  </form>
+  
+  <style>
+      /* Spinner styling */
+      .loader {
+          border: 8px solid #f3f3f3; /* Light grey */
+          border-top: 6px solid #3498db; /* Blue */
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          animation: spin 1s linear infinite;
+          margin: auto;
+      }
+  
+      @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+      }
+  </style>
+  
+  <script>
+      // Set the countdown time in seconds
+      let countdownTime = 7; 
+      const countdownElement = document.getElementById('countdown');
+      const spinnerElement = document.getElementById('spinner');
+  
+      // Show the spinner
+      spinnerElement.style.display = 'block';
+  
+      // Update the countdown every second
+      const countdownInterval = setInterval(function() {
+          countdownElement.innerHTML = `Redirecting, please wait... ${countdownTime} seconds remaining.`;
+          countdownTime--;
+  
+          // If countdown reaches zero, redirect
+          if (countdownTime < 0) {
+              clearInterval(countdownInterval);
+              window.location.href = "login.html";
+          }
+      }, 1000);
+  </script>
+  
+
+  </div>
+
+    <!-- Footer -->
+    <footer>
+      <div>&copy; 2024 HGBaquiran College, Inc.</div>
+      <div class="footer-links">
+          <a href="termsofuse.html">Terms of Use</a>
+          <a href="privacypolicy.html">Privacy Policy</a>
+      </div>
+    </footer>
+    
+   <style>
+    footer {
+        background-color: #333; /* Set background to #333 */
+        color: #fff; /* Set text color to white */
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        text-align: center;
+      }
+    
+      footer div {
+        color: #fff; /* Ensure the text remains white */
+      }
+    
+      .footer-links a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #fff; /* Set link color to white */
+        display: inline-block;
+      }
+    
+      .footer-links a:hover {
+        text-decoration: underline;
+      }
+    
+   </style>
+</body>
+<script src="success.js"></script>
+</html>

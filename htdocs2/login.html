@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--BEGINNING OF ANALYTICS--><!--BEGINNING OF ANALYTICS--><!--BEGINNING OF ANALYTICS--><!--BEGINNING OF ANALYTICS--><!--BEGINNING OF ANALYTICS-->
+    
+    <meta name="google-site-verification" content="27b3Yc6s7zpncqcSfZac1aSl-wl8DxfFIuWfJuXyOAU" />
+    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7SVH2LQ0S9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7SVH2LQ0S9');
+</script>
+    
+    <!-- Bing WebMaster -->
+    <meta name="msvalidate.01" content="5F9C9778C149E3E98C05D17F360D5619" />
+    
+<!--END OF ANALYTICS--><!--END OF ANALYTICS--><!--END OF ANALYTICS--><!--END OF ANALYTICS--><!--END OF ANALYTICS--><!--END OF ANALYTICS-->
+    
+<!-- Open Graph //Facebook Meta Tags -->
+    <meta property="og:title" content="Portal - HGBaquiran College">
+    <meta property="og:description" content="The road to success is paved with good intentions.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/jesusdiazjess/hgbc.edu.ph/main/metatags/METADportal.png">
+    <meta property="og:url" content="https://hgbc.edu.ph">
+    <meta property="og:type" content="website">
+    
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Portal - HGBaquiran College">
+<meta name="twitter:description" content="The road to success is paved with good intentions.">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/jesusdiazjess/hgbc.edu.ph/main/metatags/METADportal.png">
+<meta name="twitter:url" content="https://hgbc.edu.ph">
+
+<!-- Meta Tags for Search Engines --> <!-- Meta Tags for Search Engines --> <!-- Meta Tags for Search Engines -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In :: HGBaquiran College</title>
+
+    <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">-->
+
+    <link rel="icon" href="imaHEN/logo/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="imaHEN/logo/logo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="login.css">
+
+    <style>
+      /* Loader styling */
+      .loader {
+        display: none; /* Hide by default */
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        width: 50px;
+        height: 50px;
+        margin: -25px 0 0 -25px;
+        border: 6px solid #ddd;
+        border-top-color: #3498db;
+        border-radius: 50%;
+        animation: spin 1s ease infinite;
+        z-index: 9999; /* Ensure it appears on top */
+    }
+
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+
+<body>
+    <div class="center">
+        <form action="prologin.php" method="post">
+
+            <div class="login-header">
+                <img src="imaHEN/logo/logo.webp" alt="Logo" class="login-logo">
+                <h1>Welcome Back</h1>
+            </div>
+
+            <div class="txt_field">
+                <input type="email" name="email" id="email" required placeholder=" ">
+                <label for="email">Email</label>
+            </div>
+
+            <div class="txt_field">
+              <input type="password" name="password" id="password" required placeholder=" " oninput="toggleEyeIcon()">
+
+              <label for="password">Password</label>
+              
+              <span class="eye-icon" id="eyeIcon" onclick="togglePasswordVisibility()" style="display: none;">
+                  <i id="toggleIcon" class="fa fa-eye"></i>
+              </span>
+          </div>
+          
+          <script>
+          function toggleEyeIcon() {
+              const passwordInput = document.getElementById("password");
+              const eyeIcon = document.getElementById("eyeIcon");
+              if (passwordInput.value.length > 0) {
+                  eyeIcon.style.display = "inline";
+              } else {
+                  eyeIcon.style.display = "none";
+              }
+          }
+          
+          function togglePasswordVisibility() {
+              const passwordInput = document.getElementById("password");
+              const toggleIcon = document.getElementById("toggleIcon");
+              if (passwordInput.type === "password") {
+                  passwordInput.type = "text";
+                  toggleIcon.classList.replace("fa-eye", "fa-eye-slash");
+              } else {
+                  passwordInput.type = "password";
+                  toggleIcon.classList.replace("fa-eye-slash", "fa-eye");
+              }
+          }
+          </script>
+          
+            
+            <div class="pass"><a href="https://jesusdiazjess.github.io/hgbc.edu.ph/">Forgot Password?</a></div>
+
+            <input type="submit" value="Log In">
+
+            <h3>Don't have an account? 
+              <a href="signup.html" style="text-decoration: underline;" onclick="showLoader(event)">Create Account</a>
+          </h3>
+      
+          <!-- Loader Element -->
+          <div class="loader" id="loader"></div>
+      
+          <script>
+              // Function to display loader when the link is clicked
+              function showLoader(event) {
+                  event.preventDefault(); // Prevents immediate page load
+                  document.getElementById('loader').style.display = 'block'; // Show loader
+      
+                  // Delay the page navigation to show the loader effect
+                  setTimeout(function() {
+                      window.location.href = event.target.href;
+                  }, 1500); // Adjust timing if needed
+              }
+          </script>
+        
+
+            <div class="app-download">
+              <h3>Download HGBC Online App:</h3>
+              <a href="https://play.google.com/store/apps/details?id=com.hgbc.online" target="_blank">
+                  <img src="imaHEN/appcatalog/Google_Play.webp" alt="Get it on Google Play" style="width:125px;" height="40px;">
+              </a>
+              <a href="https://apps.apple.com/app/idxxxxxxxxx" target="_blank">
+                  <img src="imaHEN/appcatalog/App_Store.webp" alt="Download on the App Store" style="width:125px;" height="40px;">
+              </a>
+
+              <!--<a href="https://appgallery.huawei.com/#/app/Cxxxxxxxx" target="_blank">
+                <img src="https://raw.githubusercontent.com/jesusdiazjess/hgbc.edu.ph/main/appcatalog/Microsoft_Store.webp" alt="Get it from Microsoft" style="width:125px;" height="40px;">
+            </a>-->
+
+              <a href="https://appgallery.huawei.com/#/app/Cxxxxxxxx" target="_blank">
+                  <img src="imaHEN/appcatalog/Huawei_AppGallery.webp" alt="Get it on AppGallery"
+                  style="width:125px;" height="40px;">
+              </a>
+          </div>
+
+
+          <!--<div class="app-download">
+            <h3>Download HGBC Online App:</h3>
+            <a href="https://play.google.com/store/apps/details?id=com.hgbc.online" target="_blank">
+                <img src="https://raw.githubusercontent.com/jesusdiazjess/hgbc.edu.ph/main/appcatalog/Google_Play.webp" alt="Get it on Google Play" style="width:125px;" height="40px;">
+            </a>
+            <a href="https://apps.apple.com/app/idxxxxxxxxx" target="_blank">
+                <img src="https://raw.githubusercontent.com/jesusdiazjess/hgbc.edu.ph/main/appcatalog/App_Store.webp" alt="Download on the App Store" style="width:125px;" height="40px;">
+            </a>
+
+            <a href="https://appgallery.huawei.com/#/app/Cxxxxxxxx" target="_blank">
+              <img src="https://raw.githubusercontent.com/jesusdiazjess/hgbc.edu.ph/main/appcatalog/Microsoft_Store.webp" alt="Get it from Microsoft" style="width:125px;" height="40px;">
+          </a>
+
+            <a href="https://appgallery.huawei.com/#/app/Cxxxxxxxx" target="_blank">
+                <img src="https://raw.githubusercontent.com/jesusdiazjess/hgbc.edu.ph/main/appcatalog/Huawei_AppGallery.webp" alt="Get it on AppGallery"
+                style="width:125px;" height="40px;">
+            </a>
+        </div>-->
+
+
+        </form>
+        
+    </div>
+
+    <!-- Footer -->
+<footer>
+    <div>&copy; <span id="year"></span> HGBaquiran College, Inc.</div>
+    <script>
+    // Get the current year
+    const currentYear = new Date().getFullYear();
+    // Set the year in the HTML
+    document.getElementById('year').textContent = currentYear;
+    </script>
+    <div class="footer-links">
+      <a href="termsofuse.html">Terms of Use</a>
+      <a href="privacypolicy.html">Privacy Policy</a>
+    </div>
+
+    <style>
+      footer {
+        background-color: #333; /* Set background to #333 */
+        color: #fff; /* Set text color to white */
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
+        text-align: center;
+      }
+    
+      footer div {
+        color: #fff; /* Ensure the text remains white */
+      }
+    
+      .footer-links a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: #fff; /* Set link color to white */
+        display: inline-block;
+      }
+    
+      .footer-links a:hover {
+        text-decoration: underline;
+      }
+    
+      /* Responsive for smaller screens */
+      @media (max-width: 768px) {
+        footer {
+          flex-direction: column;
+        }
+        .footer-links {
+          margin-top: 10px;
+          text-align: center; /* Center the links */
+        }
+        .footer-links a {
+          display: inline-block; /* Keep the links side by side */
+          margin: 0 5px;
+        }
+      }
+    </style> 
+
+  </footer>
+  
+  <!-- Information Assurance + Security v1 by FUSASIS -->
+  <script>
+    // Disable right-click context menu for the whole page
+    document.addEventListener('contextmenu', function(event) {
+        event.preventDefault();  // Disable right-click menu for the entire page
+    });
+
+    // Prevent developer tools keyboard shortcuts (e.g., F12, Ctrl + Shift + I, Ctrl + U)
+    document.onkeydown = function(e) {
+        // Block F12, Ctrl + Shift + I, Ctrl + U, and other developer tools key combinations
+        if (e.keyCode == 123 || 
+            (e.ctrlKey && e.shiftKey && e.keyCode == 73) || // Ctrl + Shift + I
+            (e.ctrlKey && e.keyCode == 85)) { // Ctrl + U (view page source)
+            
+            e.preventDefault();  // Prevent the default action for the keys
+            alert("Inspect Element and View Page Source are disabled on this page.");
+        }
+    };
+</script>
+</body>
+<script src="login.js"></script>
+</html>
