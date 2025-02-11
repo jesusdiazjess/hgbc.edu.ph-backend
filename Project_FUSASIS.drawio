@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.11">
   <diagram name="Front.Back.End" id="VPhVP1p7Nuwpb0T0APY4">
-    <mxGraphModel dx="1747" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1965" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -181,6 +181,9 @@
         </mxCell>
         <mxCell id="rhOoVfOxyiNhfkWCCvGg-46" value="Mr. James Bryan Bagunu" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="1088.58" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rhOoVfOxyiNhfkWCCvGg-47" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Google_Maps_Logo.svg/1920px-Google_Maps_Logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="441.76" y="601.8499999999999" width="115.06" height="22.15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
