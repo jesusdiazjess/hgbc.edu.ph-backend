@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.11">
   <diagram name="Front.Back.End" id="VPhVP1p7Nuwpb0T0APY4">
-    <mxGraphModel dx="524" dy="312" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="873" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -123,6 +123,9 @@
         </mxCell>
         <mxCell id="rhOoVfOxyiNhfkWCCvGg-27" value="&lt;h3&gt;&lt;strong&gt;Future Upgrades:&lt;/strong&gt;&lt;/h3&gt;&lt;p&gt;The developer plans to develop a mobile application for the two major mobile operating systems, ensuring seamless integration and enhanced user experience across multiple devices.&lt;/p&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="670" y="540" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rhOoVfOxyiNhfkWCCvGg-29" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cloudflare_Logo.svg/1920px-Cloudflare_Logo.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="525" y="30" width="150" height="49.63" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
