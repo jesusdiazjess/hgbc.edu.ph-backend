@@ -246,7 +246,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="HRZVKv01JAJWLSVWvODl" name="iAS1+2">
-    <mxGraphModel dx="2063" dy="1607" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2476" dy="936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -463,11 +463,6 @@
         <mxCell id="PiZHBllyfg1pCfxNm8ju-64" value="&lt;a href=&quot;https://web.archive.org/web/20241126190809/https://hgbaquirancollege.org/&quot;&gt;HGB College&lt;/a&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="910" y="1630" width="890" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PiZHBllyfg1pCfxNm8ju-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="PiZHBllyfg1pCfxNm8ju-16">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="119" y="-20" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="PiZHBllyfg1pCfxNm8ju-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="PiZHBllyfg1pCfxNm8ju-66" target="PiZHBllyfg1pCfxNm8ju-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -499,6 +494,12 @@
         </mxCell>
         <mxCell id="PiZHBllyfg1pCfxNm8ju-78" value="Configuration for domain and web hosting,&lt;div&gt;Also, applicable for renew.&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1221.23" y="1133" width="230.54" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PiZHBllyfg1pCfxNm8ju-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PiZHBllyfg1pCfxNm8ju-80" target="PiZHBllyfg1pCfxNm8ju-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PiZHBllyfg1pCfxNm8ju-80" value="&lt;b&gt;1. Availability&lt;/b&gt;&lt;div&gt;&amp;nbsp;- Ensuring the website/system is always accessible by:&lt;div&gt;* Using reliable hosting with minimal downtime.&lt;/div&gt;&lt;div&gt;* Implementing backups and redundancy.&lt;/div&gt;&lt;div&gt;* Protecting against DDoS with firewalls or CDN.&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1412" y="27.400000000000027" width="310" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
