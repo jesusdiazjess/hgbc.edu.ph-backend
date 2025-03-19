@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1" pages="3">
+  <diagram id="hfyuYABr8la2JmntdbW9" name="Page-1">
+    <mxGraphModel dx="1207" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5gsKlyto8tQv6-r1u7al-3" value="PROCESS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5gsKlyto8tQv6-r1u7al-4" value="INPUT" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5gsKlyto8tQv6-r1u7al-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5gsKlyto8tQv6-r1u7al-5" target="5gsKlyto8tQv6-r1u7al-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="728" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5gsKlyto8tQv6-r1u7al-5" value="OUTPUT" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5gsKlyto8tQv6-r1u7al-8" value="&lt;p data-pm-slice=&quot;1 1 []&quot;&gt;The expected output of the system is an &lt;strong&gt;Intelligent Career Evaluation System&lt;/strong&gt; that provides personalized career recommendations based on students’ personality traits and interests.&lt;/p&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="290" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5gsKlyto8tQv6-r1u7al-13" value="&lt;ul data-pm-slice=&quot;3 3 []&quot; data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Software Requirements&lt;/strong&gt;:&lt;/p&gt;&lt;ul data-spread=&quot;false&quot;&gt;&lt;li&gt;&lt;p&gt;Programming Language: Python, JavaScript&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Frameworks/Libraries: TensorFlow, Bootstrap, SQL&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Database Management System: MySQL/PostgreSQL&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Frontend Technologies: HTML, CSS, JavaScript&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Backend Technologies: Flask/Django&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="270" height="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="goPFw3NXmJn4oZYxm_oR" name="Page-2">
+    <mxGraphModel dx="1026" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="J_sBLno1oV_KEV4VT4-1-2" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.web_ui;" vertex="1" parent="1">
+          <mxGeometry x="180" y="205.6" width="74.8" height="76.8" as="geometry" />
+        </mxCell>
+        <mxCell id="J_sBLno1oV_KEV4VT4-1-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="300" y="209" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J_sBLno1oV_KEV4VT4-1-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-5/50/reload-refresh-redo-processing-circle-128.png" vertex="1" parent="1">
+          <mxGeometry x="420" y="209" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="J_sBLno1oV_KEV4VT4-1-5" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" vertex="1" parent="1">
+          <mxGeometry x="540" y="205.6" width="73.96" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="J_sBLno1oV_KEV4VT4-1-6" value="&lt;span id=&quot;docs-internal-guid-ea711663-7fff-9757-81e6-46e8104caecb&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;User Interface – Web-based portal for students to take assessments.&lt;/span&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="310" width="127.4" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J_sBLno1oV_KEV4VT4-1-7" value="&lt;span id=&quot;docs-internal-guid-8f9efcb6-7fff-2644-1b29-8d2b98c293bd&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Database Server – Stores user data, personality assessments, and career recommendations.&lt;/span&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="305" y="320" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J_sBLno1oV_KEV4VT4-1-8" value="&lt;span id=&quot;docs-internal-guid-d424ca9e-7fff-9685-433a-0391ab42ac4c&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;AI Processing Module – Implements the Feedforward Neural Network for personality and career prediction.&lt;/span&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J_sBLno1oV_KEV4VT4-1-9" value="&lt;span id=&quot;docs-internal-guid-d60d98e5-7fff-f74c-c565-8c62e193e056&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;API Layer – Facilitates communication between the user interface, AI processing module, and database.&lt;/span&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1zWLd_YAzV-mSoz1XuqR" name="Page-3">
+    <mxGraphModel dx="1026" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
