@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1" pages="3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1" pages="4">
   <diagram id="hfyuYABr8la2JmntdbW9" name="Page-1">
     <mxGraphModel dx="1207" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -66,6 +66,71 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="NH6hj3DtAZYAioiBwmo1-1" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.design.users;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NH6hj3DtAZYAioiBwmo1-3" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cpu;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="70.8" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NH6hj3DtAZYAioiBwmo1-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="410" y="185" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NH6hj3DtAZYAioiBwmo1-5" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:3469,&amp;quot;end&amp;quot;:3673},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:3469,&amp;quot;end&amp;quot;:3534}]&quot;&gt;&lt;strong&gt;Users (Students, Counselors, Admins)&lt;/strong&gt; input assessment data.&lt;/p&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NH6hj3DtAZYAioiBwmo1-6" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:3469,&amp;quot;end&amp;quot;:3673},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:3535,&amp;quot;end&amp;quot;:3611}]&quot;&gt;&lt;strong&gt;System&lt;/strong&gt; processes the data using AI and returns career recommendations.&lt;/p&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300.8" y="260" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NH6hj3DtAZYAioiBwmo1-7" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:3469,&amp;quot;end&amp;quot;:3673},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:3612,&amp;quot;end&amp;quot;:3673}]&quot;&gt;&lt;strong&gt;Database&lt;/strong&gt; stores and retrieves user and assessment data.&lt;/p&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="435" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Copy of Page-3" id="lJrs2yb1E3An61cdDl_b">
+    <mxGraphModel dx="1026" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="Mfl3-B2DHubhiMzUxLJK-0" />
+        <mxCell id="Mfl3-B2DHubhiMzUxLJK-1" parent="Mfl3-B2DHubhiMzUxLJK-0" />
+        <mxCell id="Mfl3-B2DHubhiMzUxLJK-2" value="" style="verticalLabelPosition=bottom;sketch=0;html=1;fillColor=#A153A0;strokeColor=#ffffff;verticalAlign=top;align=center;points=[[0,0.5,0],[0.125,0.25,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[0.875,0.25,0],[1,0.5,0],[0.875,0.75,0],[0.75,1,0],[0.5,1,0],[0.125,0.75,0]];pointerEvents=1;shape=mxgraph.cisco_safe.compositeIcon;bgIcon=ellipse;resIcon=mxgraph.cisco_safe.design.users;" vertex="1" parent="Mfl3-B2DHubhiMzUxLJK-1">
+          <mxGeometry x="160" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mfl3-B2DHubhiMzUxLJK-3" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.cpu;" vertex="1" parent="Mfl3-B2DHubhiMzUxLJK-1">
+          <mxGeometry x="850" y="134.5" width="70.8" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Mfl3-B2DHubhiMzUxLJK-4" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="Mfl3-B2DHubhiMzUxLJK-1">
+          <mxGeometry x="970" y="139.5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mfl3-B2DHubhiMzUxLJK-5" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:3874,&amp;quot;end&amp;quot;:4146},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:3959,&amp;quot;end&amp;quot;:4146},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:4000,&amp;quot;end&amp;quot;:4146},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:4000,&amp;quot;end&amp;quot;:4035}]&quot;&gt;Users take the career assessment.&lt;/p&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Mfl3-B2DHubhiMzUxLJK-1">
+          <mxGeometry x="170" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mfl3-B2DHubhiMzUxLJK-6" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:3469,&amp;quot;end&amp;quot;:3673},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:3535,&amp;quot;end&amp;quot;:3611}]&quot;&gt;&lt;strong&gt;System&lt;/strong&gt; processes the data using AI and returns career recommendations.&lt;/p&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Mfl3-B2DHubhiMzUxLJK-1">
+          <mxGeometry x="860.8" y="214.5" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Mfl3-B2DHubhiMzUxLJK-7" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:3469,&amp;quot;end&amp;quot;:3673},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:3612,&amp;quot;end&amp;quot;:3673}]&quot;&gt;&lt;strong&gt;Database&lt;/strong&gt; stores and retrieves user and assessment data.&lt;/p&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Mfl3-B2DHubhiMzUxLJK-1">
+          <mxGeometry x="995" y="244.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hj5h9a5j6cOZIYHz8AMD-0" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/essential-web-5/50/reload-refresh-redo-processing-circle-128.png" vertex="1" parent="Mfl3-B2DHubhiMzUxLJK-1">
+          <mxGeometry x="290" y="175" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hj5h9a5j6cOZIYHz8AMD-1" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:3874,&amp;quot;end&amp;quot;:4146},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:3959,&amp;quot;end&amp;quot;:4146},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:4000,&amp;quot;end&amp;quot;:4146},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:4038,&amp;quot;end&amp;quot;:4072}]&quot;&gt;The system processes input data.&lt;/p&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Mfl3-B2DHubhiMzUxLJK-1">
+          <mxGeometry x="285" y="260" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hj5h9a5j6cOZIYHz8AMD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Mfl3-B2DHubhiMzUxLJK-1" source="hj5h9a5j6cOZIYHz8AMD-1" target="hj5h9a5j6cOZIYHz8AMD-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LTokflXVkix4B-vKfUFl-0" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;prIcon=api" vertex="1" parent="Mfl3-B2DHubhiMzUxLJK-1">
+          <mxGeometry x="400" y="179" width="73.96" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="LTokflXVkix4B-vKfUFl-1" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:3874,&amp;quot;end&amp;quot;:4146},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:3959,&amp;quot;end&amp;quot;:4146},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:4000,&amp;quot;end&amp;quot;:4146},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:4075,&amp;quot;end&amp;quot;:4106}]&quot;&gt;AI generates recommendations.&lt;/p&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Mfl3-B2DHubhiMzUxLJK-1">
+          <mxGeometry x="418.96" y="260" width="36.04" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LTokflXVkix4B-vKfUFl-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/essential-pack-2/48/17-Emotion_-_Happy-128.png" vertex="1" parent="Mfl3-B2DHubhiMzUxLJK-1">
+          <mxGeometry x="524" y="189" width="71" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="LTokflXVkix4B-vKfUFl-3" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:3874,&amp;quot;end&amp;quot;:4146},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:3959,&amp;quot;end&amp;quot;:4146},&amp;quot;list&amp;quot;,{&amp;quot;spread&amp;quot;:false,&amp;quot;start&amp;quot;:4000,&amp;quot;end&amp;quot;:4146},&amp;quot;regular_list_item&amp;quot;,{&amp;quot;start&amp;quot;:4109,&amp;quot;end&amp;quot;:4146}]&quot;&gt;Users receive personalized results.&lt;/p&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Mfl3-B2DHubhiMzUxLJK-1">
+          <mxGeometry x="510" y="264.5" width="116" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
